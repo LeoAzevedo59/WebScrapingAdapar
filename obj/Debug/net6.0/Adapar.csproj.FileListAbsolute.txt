@@ -61,3 +61,4 @@
 /Users/leoazevedo/dev/WebScraping/Adapar/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
 /Users/leoazevedo/dev/WebScraping/Adapar/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /Users/leoazevedo/dev/WebScraping/Adapar/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/leoazevedo/dev/WebScraping/Adapar/obj/Debug/net6.0/Adapar.sourcelink.json

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapar", "Adapar.csproj", "{9AB85FC6-3741-4E30-A426-B324B5A41164}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapar", "Adapar.csproj", "{273C9564-BD91-451F-8C0A-0B9DF47D5661}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9AB85FC6-3741-4E30-A426-B324B5A41164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AB85FC6-3741-4E30-A426-B324B5A41164}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AB85FC6-3741-4E30-A426-B324B5A41164}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AB85FC6-3741-4E30-A426-B324B5A41164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273C9564-BD91-451F-8C0A-0B9DF47D5661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273C9564-BD91-451F-8C0A-0B9DF47D5661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273C9564-BD91-451F-8C0A-0B9DF47D5661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273C9564-BD91-451F-8C0A-0B9DF47D5661}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
