@@ -7,10 +7,9 @@ using Adapar.useCases.TargetCulture;
 using Newtonsoft.Json;
 using System.Data.SqlClient;
 
-// string? connectionString = Environment.GetEnvironmentVariable("SQL_SERVER");
-string? _connectionString = "Server=tcp:brever-production.database.windows.net,1433;Initial Catalog=production;Persist Security Info=False;User ID=verschoor_prod;Password=35B2xiqVzF0bnSs2;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+string? connectionString = Environment.GetEnvironmentVariable("SQL_SERVER");
 
-if (string.IsNullOrWhiteSpace(_connectionString))
+if (string.IsNullOrWhiteSpace(connectionString))
   throw new ArgumentException("Connection string not found.");
 
 string jsonFilePath = "agrochemicals.json";
@@ -18,7 +17,7 @@ string jsonContent = File.ReadAllText(jsonFilePath);
 var products = JsonConvert.DeserializeObject<List<ProductDto>>(jsonContent);
 
 
-using (SqlConnection connection = new SqlConnection(_connectionString))
+using (SqlConnection connection = new SqlConnection(connectionString))
 {
   try
   {
